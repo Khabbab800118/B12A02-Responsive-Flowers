@@ -321,11 +321,14 @@ ul {
         max-width: auto;
         margin: auto;
     }
+    *{
+        max-width: 100%;
+    }
 
     /*         header navbar section          */
 
     .header-navbar {
-        width: 576px;
+        width: 100%;
         margin-top: 0rem;
         display: flex;
         align-items: center;
@@ -339,8 +342,13 @@ ul {
         color: #252432;
     }
 
-    .header-navbar ul li:nth-child(2) a,
-    :nth-child(3) a {
+    .header-navbar ul li:nth-child(2) a {
+        position: absolute;
+        display: none;
+        color: #8987A1;
+    }
+
+    .header-navbar ul li:nth-child(3) a {
         position: absolute;
         display: none;
         color: #8987A1;
@@ -356,7 +364,7 @@ ul {
     /* ........header-banner......... */
 
     .header-banner {
-        width: 576px;
+        width: 100%;
         flex-direction: column-reverse;
         margin-top: 0px;
         align-items: center;
@@ -379,7 +387,7 @@ ul {
     /* .........plant section......... */
 
     .plants-section {
-        width: 576px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -414,5 +422,158 @@ ul {
         font-size: 1.5rem;
         font-weight: 700;
         margin-top: 1rem;
+    }
+
+    /* ......plants-lover-section...... */
+
+    .plants-lover-section {
+        width: 100%;
+        flex-direction: column;
+        margin-top: calc(120rem / 16);
+        gap: 4rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .plants-lover-section-left {
+        max-width: fit-content;
+    }
+
+    .trusted-badge {
+        display: none;
+        position: absolute;
+        top: -40rem;
+        right: -27rem;
+    }
+
+    .plants-lover-section-right ul {
+        margin: 0rem;
+    }
+
+    .plants-lover-section-right ul li {
+        margin: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+        list-style: none;
+    }
+
+    .plants-lover-section-right-title {
+        font-size: calc(40rem / 16);
+        margin-top: 1rem;
+        font-weight: 700;
+    }
+
+    /* ........latest deal section............... */
+    .latest-deal-section {
+        width: 100%;
+        margin: 0px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .latest-deal-section-title {
+        font-size: calc(50rem / 16);
+        font-weight: 700;
+        margin: 3rem 0rem 1rem 0rem;
+
+    }
+
+    .latest-deal-section-layout {
+        flex-direction: column;
+        margin-top: 2rem;
+        gap: 0%;
+    }
+
+    .latest-deal-section-layout-left {
+        height: 30rem;
+        width: 100%;
+        flex-direction: column;
+        gap: 0%;
+
+    }
+
+    .latest-deal-section-bloom {
+        border-radius: 1rem;
+        height: 50%;
+        background-image: url('../assets/deal-bloom.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .latest-deal-section-ana {
+        border-radius: 1rem;
+        height: 50%;
+        background-image: url('../assets/deal-ana.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .latest-deal-section-layout-right {
+        height: 15rem;
+        flex-direction: column;
+        width: 100%;
+        background-image: url('../assets/deal-zabo.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    /* .........join-community section........ */
+
+    .join-community {
+        height: 20rem;
+        background-image: url('../assets/news-letter-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 0rem;
+    }
+
+    .join-community-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    #subscribe-email-bar {
+        width: auto;
+        height: 3rem;
+        border: none;
+        padding: 1rem;
+    }
+
+    .subscribe-email-button {
+        width: auto;
+        height: 3rem;
+        border: none;
+        padding: 1rem;
+        background-color: #E95A08;
+        color: white;
+    }
+
+    /* footer section */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        margin: 0rem;
+    }
+
+    .footer-left-description {
+        margin-top: 1rem;
+    }
+
+    .footer-mid-links {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+    }
+
+    .footer-right {
+        display: flex;
+        gap: 2rem;
     }
 }
