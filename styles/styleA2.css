@@ -1,3 +1,70 @@
-.pera{
-    color: blue;
+/*          common           */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+* img {
+    display: block;
+    max-width: 100%;
+}
+
+* a,
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* fonts */
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; 
+  font-style: normal;
+}
+
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*          navbar section          */
+
+.header-navbar{
+    margin-top: 1.9rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-navbar ul{
+    gap: 3rem;
+}
+.header-navbar ul li:nth-child(1) a, :nth-child(4) a {
+    font-weight: 600;
+    color: #252432;
+}
+.header-navbar ul li:nth-child(2) a, :nth-child(3) a {
+    color: #8987A1;
+}
+.header-navbar ul li:nth-child(4) a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
 }
