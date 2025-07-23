@@ -30,6 +30,15 @@ ul {
     flex-direction: column;
 }
 
+.primary-btn{
+    background-color: #E95A08;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border: none;
+    padding: 1rem calc(90rem / 16);
+}
+
 /* fonts */
 
 .inter {
@@ -51,6 +60,9 @@ ul {
 
 .orange{
     color: #E95A08;
+}
+.gray1{
+    color: rgba(0, 0, 0, 0.5);
 }
 /*         header navbar section          */
 
@@ -94,8 +106,33 @@ ul {
 
 /* .........plant section......... */
 
+.plants-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: calc(80rem / 16);
+    text-align: center;
+}
+.plants-section-title{
+    font-size: calc(35rem / 16);
+    font-weight: 700;
+}
+.plants-section-description{
+    max-width: 50%;
+    margin: 1rem 0rem 2rem 0rem;
+}
 .all-cards{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1rem;
+}
+.flower-name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+.flower-price{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
 }
