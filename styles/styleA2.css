@@ -46,7 +46,13 @@ ul {
   font-variation-settings:
     "wdth" 100;
 }
-/*          navbar section          */
+
+/* ........colors........... */
+
+.orange{
+    color: #E95A08;
+}
+/*         header navbar section          */
 
 .header-navbar{
     margin-top: 1.9rem;
@@ -67,4 +73,21 @@ ul {
     display: flex;
     align-items: center;
     gap: .5rem;
+}
+
+/* ........header-banner......... */
+
+.header-banner{
+    margin-top: calc(80rem / 16);
+    align-items: center;
+    justify-content: space-between;
+}
+.header-banner-left-title{
+    font-size: calc(45rem / 16);
+    font-weight: 700;
+}
+.header-banner-left-description{
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 70%;
 }
