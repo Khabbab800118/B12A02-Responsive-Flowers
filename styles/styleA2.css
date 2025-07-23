@@ -136,3 +136,36 @@ ul {
     font-weight: 700;
     margin-top: 1rem;
 }
+
+/* ......plants-lover-section...... */
+
+.plants-lover-section{
+    margin-top: calc(120rem / 16);
+    gap: 4rem;
+}
+.plants-lover-section-left{
+    max-width: fit-content;
+}
+.trusted-badge{
+    width: 30%;
+    position: relative;
+    top: -40rem;
+    right: -27rem;
+}
+.plants-lover-section-right ul li{
+    margin-bottom: 2rem;
+}
+.plants-lover-section-right ul{
+    margin: 2rem 0rem 0rem 4rem;
+}
+.plants-lover-section-right-title{
+    font-size: calc(50rem / 16);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.plants-lover-section-right ul li{
+    list-style: disc;
+}
+.plants-lover-section-right-description{
+    font-size: calc(22rem / 16);
+}
