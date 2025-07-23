@@ -15,7 +15,9 @@
     display: block;
     max-width: 100%;
 }
-
+* a:hover{
+    background-color: rgba(51, 127, 158, 1);
+}
 * a,
 ul {
     list-style: none;
@@ -85,7 +87,7 @@ ul {
 .header-navbar ul{
     gap: 3rem;
 }
-.header-navbar ul li:nth-child(1) a, :nth-child(4) a {
+.header-navbar ul li:nth-child(1) a{
     font-weight: 600;
     color: #252432;
 }
@@ -96,6 +98,7 @@ ul {
     display: flex;
     align-items: center;
     gap: .5rem;
+    color: #252432;
 }
 
 /* ........header-banner......... */
@@ -248,4 +251,25 @@ ul {
     padding: 1rem;
     background-color: #E95A08;
     color: white;
+}
+
+/* footer section */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.footer-left-description{
+    margin-top: 1rem;
+}
+.footer-mid-links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    gap: 1rem;
+}
+.footer-right{
+    display: flex;
+    gap: 2rem;
 }
