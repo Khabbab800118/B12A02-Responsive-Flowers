@@ -15,15 +15,18 @@
     display: block;
     max-width: 100%;
 }
-* a:hover{
+
+* a:hover {
     background-color: rgba(51, 127, 158, 1);
 }
+
 * a,
 ul {
     list-style: none;
     text-decoration: none;
 }
-.anc-with-line{
+
+.anc-with-line {
     text-decoration: underline;
 }
 
@@ -35,12 +38,12 @@ ul {
     flex-direction: column;
 }
 
-.center100{
+.center100 {
     align-items: center;
     justify-content: center;
 }
 
-.primary-btn{
+.primary-btn {
     background-color: #E95A08;
     color: white;
     font-weight: 600;
@@ -52,48 +55,56 @@ ul {
 /* fonts */
 
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto; 
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 .noto-serif {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* ........colors........... */
 
-.orange{
+.orange {
     color: #E95A08;
 }
-.gray1{
+
+.gray1 {
     color: rgba(0, 0, 0, 0.5);
 }
-.white{
+
+.white {
     color: white;
 }
+
 /*         header navbar section          */
 
-.header-navbar{
+.header-navbar {
     margin-top: 1.9rem;
     align-items: center;
     justify-content: space-between;
 }
-.header-navbar ul{
+
+.header-navbar ul {
     gap: 3rem;
 }
-.header-navbar ul li:nth-child(1) a{
+
+.header-navbar ul li:nth-child(1) a {
     font-weight: 600;
     color: #252432;
 }
-.header-navbar ul li:nth-child(2) a, :nth-child(3) a {
+
+.header-navbar ul li:nth-child(2) a,
+:nth-child(3) a {
     color: #8987A1;
 }
+
 .header-navbar ul li:nth-child(4) a {
     display: flex;
     align-items: center;
@@ -103,16 +114,18 @@ ul {
 
 /* ........header-banner......... */
 
-.header-banner{
+.header-banner {
     margin-top: calc(80rem / 16);
     align-items: center;
     justify-content: space-between;
 }
-.header-banner-left-title{
+
+.header-banner-left-title {
     font-size: calc(45rem / 16);
     font-weight: 700;
 }
-.header-banner-left-description{
+
+.header-banner-left-description {
     margin-top: 1rem;
     color: rgba(0, 0, 0, 0.5);
     max-width: 70%;
@@ -120,32 +133,37 @@ ul {
 
 /* .........plant section......... */
 
-.plants-section{
+.plants-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: calc(80rem / 16);
     text-align: center;
 }
-.plants-section-title{
+
+.plants-section-title {
     font-size: calc(35rem / 16);
     font-weight: 700;
 }
-.plants-section-description{
+
+.plants-section-description {
     max-width: 50%;
     margin: 1rem 0rem 2rem 0rem;
 }
-.all-cards{
+
+.all-cards {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
-.flower-name{
+
+.flower-name {
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 1.5rem;
 }
-.flower-price{
+
+.flower-price {
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 1rem;
@@ -153,70 +171,84 @@ ul {
 
 /* ......plants-lover-section...... */
 
-.plants-lover-section{
+.plants-lover-section {
     margin-top: calc(120rem / 16);
     gap: 4rem;
 }
-.plants-lover-section-left{
+
+.plants-lover-section-left {
     max-width: fit-content;
 }
-.trusted-badge{
+
+.trusted-badge {
     width: 30%;
     position: relative;
     top: -40rem;
     right: -27rem;
 }
-.plants-lover-section-right ul li{
+
+.plants-lover-section-right ul li {
     margin-bottom: 2rem;
 }
-.plants-lover-section-right ul{
+
+.plants-lover-section-right ul {
     margin: 2rem 0rem 0rem 4rem;
 }
-.plants-lover-section-right-title{
+
+.plants-lover-section-right-title {
     font-size: calc(50rem / 16);
     margin-top: 1rem;
     font-weight: 700;
 }
-.plants-lover-section-right ul li{
+
+.plants-lover-section-right ul li {
     list-style: disc;
 }
-.plants-lover-section-right-description{
+
+.plants-lover-section-right-description {
     font-size: calc(22rem / 16);
 }
+
 /* ........latest deal section............... */
-.latest-deal-section{
+.latest-deal-section {
     text-align: center;
 }
-.latest-deal-section-title{
+
+.latest-deal-section-title {
     font-size: calc(50rem / 16);
     font-weight: 700;
     margin: 3rem 0rem 1rem 0rem;
 
 }
-.latest-deal-section-layout{
+
+.latest-deal-section-layout {
     margin-top: 4rem;
     gap: 1.4%;
 }
-.latest-deal-section-layout-left{
+
+.latest-deal-section-layout-left {
     height: calc(424rem / 16);
     width: 39.3%;
     flex-direction: column;
     gap: 4%;
 
 }
-.latest-deal-section-bloom{
+
+.latest-deal-section-bloom {
     border-radius: 1rem;
     height: 48%;
     background-image: url('../assets/deal-bloom.png');
     background-size: 100%;
 }
-.latest-deal-section-ana{
+
+.latest-deal-section-ana {
     border-radius: 1rem;
     height: 48%;
     background-image: url('../assets/deal-ana.png');
     background-size: 100%;
 }
-.latest-deal-section-layout-right{
+
+.latest-deal-section-layout-right {
     height: calc(424rem / 16);
     width: 59.3%;
     flex-direction: column;
@@ -226,25 +258,28 @@ ul {
 
 /* .........join-community section........ */
 
-.join-community{
+.join-community {
     height: calc(533rem / 16);
     background-image: url('../assets/news-letter-bg.png');
     background-size: 100%;
     margin-top: calc(120rem / 16);
 }
-.join-community-title{
+
+.join-community-title {
     font-size: 3.2rem;
     font-weight: 700;
     color: white;
     margin-bottom: 1rem;
 }
-#subscribe-email-bar{
+
+#subscribe-email-bar {
     width: calc(600rem / 16);
     height: 3rem;
     border: none;
     padding: 1rem;
 }
-.subscribe-email-button{
+
+.subscribe-email-button {
     width: calc(150rem / 16);
     height: 3rem;
     border: none;
@@ -254,22 +289,130 @@ ul {
 }
 
 /* footer section */
-.footer-container{
+.footer-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     margin: 1rem 0rem 1rem 0rem;
 }
-.footer-left-description{
+
+.footer-left-description {
     margin-top: 1rem;
 }
-.footer-mid-links{
+
+.footer-mid-links {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     place-items: center;
     gap: 1rem;
 }
-.footer-right{
+
+.footer-right {
     display: flex;
     gap: 2rem;
+}
+
+/* .............for mobile......... */
+
+@media screen and (max-width:576px) {
+
+    /* common */
+    .container {
+        max-width: auto;
+        margin: auto;
+    }
+
+    /*         header navbar section          */
+
+    .header-navbar {
+        width: 576px;
+        margin-top: 0rem;
+        display: flex;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .header-navbar ul li:nth-child(1) a {
+        display: none;
+        position: absolute;
+        font-weight: 600;
+        color: #252432;
+    }
+
+    .header-navbar ul li:nth-child(2) a,
+    :nth-child(3) a {
+        position: absolute;
+        display: none;
+        color: #8987A1;
+    }
+
+    .header-navbar ul li:nth-child(4) a {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        color: #252432;
+    }
+
+    /* ........header-banner......... */
+
+    .header-banner {
+        width: 576px;
+        flex-direction: column-reverse;
+        margin-top: 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .header-banner-left-title {
+        margin-top: 1rem;
+        font-size: calc(45rem / 16);
+        font-weight: 700;
+    }
+
+    .header-banner-left-description {
+        margin-top: 1rem;
+        color: rgba(0, 0, 0, 0.5);
+        max-width: 100%;
+    }
+
+    /* .........plant section......... */
+
+    .plants-section {
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: calc(80rem / 16);
+        text-align: center;
+    }
+
+    .plants-section-title {
+        font-size: calc(35rem / 16);
+        font-weight: 700;
+    }
+
+    .plants-section-description {
+        max-width: 100%;
+        margin: 1rem 0rem 2rem 0rem;
+    }
+
+    .all-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .flower-name {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: 1.5rem;
+    }
+
+    .flower-price {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 1rem;
+    }
 }
