@@ -220,3 +220,32 @@ ul {
     background-image: url('../assets/deal-zabo.png');
     background-size: 100%;
 }
+
+/* .........join-community section........ */
+
+.join-community{
+    height: calc(533rem / 16);
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: 100%;
+    margin-top: calc(120rem / 16);
+}
+.join-community-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+#subscribe-email-bar{
+    width: calc(600rem / 16);
+    height: 3rem;
+    border: none;
+    padding: 1rem;
+}
+.subscribe-email-button{
+    width: calc(150rem / 16);
+    height: 3rem;
+    border: none;
+    padding: 1rem;
+    background-color: #E95A08;
+    color: white;
+}
