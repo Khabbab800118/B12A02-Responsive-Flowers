@@ -91,3 +91,11 @@ ul {
     color: rgba(0, 0, 0, 0.5);
     max-width: 70%;
 }
+
+/* .........plant section......... */
+
+.all-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
