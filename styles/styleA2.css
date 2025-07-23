@@ -21,6 +21,9 @@ ul {
     list-style: none;
     text-decoration: none;
 }
+.anc-with-line{
+    text-decoration: underline;
+}
 
 .flex {
     display: flex;
@@ -28,6 +31,11 @@ ul {
 
 .column {
     flex-direction: column;
+}
+
+.center100{
+    align-items: center;
+    justify-content: center;
 }
 
 .primary-btn{
@@ -63,6 +71,9 @@ ul {
 }
 .gray1{
     color: rgba(0, 0, 0, 0.5);
+}
+.white{
+    color: white;
 }
 /*         header navbar section          */
 
@@ -168,4 +179,44 @@ ul {
 }
 .plants-lover-section-right-description{
     font-size: calc(22rem / 16);
+}
+/* ........latest deal section............... */
+.latest-deal-section{
+    text-align: center;
+}
+.latest-deal-section-title{
+    font-size: calc(50rem / 16);
+    font-weight: 700;
+    margin: 3rem 0rem 1rem 0rem;
+
+}
+.latest-deal-section-layout{
+    margin-top: 4rem;
+    gap: 1.4%;
+}
+.latest-deal-section-layout-left{
+    height: calc(424rem / 16);
+    width: 39.3%;
+    flex-direction: column;
+    gap: 4%;
+
+}
+.latest-deal-section-bloom{
+    border-radius: 1rem;
+    height: 48%;
+    background-image: url('../assets/deal-bloom.png');
+    background-size: 100%;
+}
+.latest-deal-section-ana{
+    border-radius: 1rem;
+    height: 48%;
+    background-image: url('../assets/deal-ana.png');
+    background-size: 100%;
+}
+.latest-deal-section-layout-right{
+    height: calc(424rem / 16);
+    width: 59.3%;
+    flex-direction: column;
+    background-image: url('../assets/deal-zabo.png');
+    background-size: 100%;
 }
