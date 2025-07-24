@@ -25,7 +25,12 @@
                     <li><a href="">Home</a></li>
                     <li><a href="">Shop</a></li>
                     <li><a href="">About us</a></li>
-                    <li><a href=""><i class="fa-solid fa-cart-plus"></i>Cart($56)</a></li>
+                    <li><a href="javascript:void(0)" onclick="showAlert()"><i class="fa-solid fa-cart-plus"></i>Cart($56)</a></li>
+                    <script>
+                        function showAlert() {
+                            alert("Added to Cart");
+                        }
+                    </script>
                 </ul>
             </nav>
         </section>
@@ -108,7 +113,7 @@
         <section class="plants-lover-section flex container">
             <div class="plants-lover-section-left">
                 <img src="./assets/flower-store.png" alt="">
-                <div class="trusted-badge"><img src="./assets/trusted-badge.png" alt=""></div>
+                <div class="trusted-badge rotation"><img src="./assets/trusted-badge.png" alt=""></div>
             </div>
             <div class="plants-lover-section-right">
                 <h3 class="plants-lover-section-right-title noto-serif">Flower & Plants <br> Lover</h3>
