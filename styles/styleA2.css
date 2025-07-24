@@ -518,7 +518,16 @@ ul {
         color: white;
     }
 
-    .latest-deal-section-bloom,
+    .latest-deal-section-bloom {
+        border-radius: 1rem;
+        height: 50%;
+        background-image: url('../assets/deal-bloom.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+    }
+
     .latest-deal-section-ana {
         border-radius: 1rem;
         height: 50%;
@@ -529,74 +538,74 @@ ul {
         margin-bottom: 1rem;
     }
 
-.latest-deal-section-layout-right {
-    border-radius: 1rem;
-    height: 15rem;
-    width: 100%;
-    flex-direction: column;
-    background-image: url('../assets/deal-zabo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    .latest-deal-section-layout-right {
+        border-radius: 1rem;
+        height: 15rem;
+        width: 100%;
+        flex-direction: column;
+        background-image: url('../assets/deal-zabo.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-/* .........join-community section........ */
+    /* .........join-community section........ */
 
-.join-community {
-    height: 20rem;
-    background-image: url('../assets/news-letter-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 0rem;
-}
+    .join-community {
+        height: 20rem;
+        background-image: url('../assets/news-letter-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 0rem;
+    }
 
-.join-community-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 1rem;
-}
+    .join-community-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1rem;
+    }
 
-#subscribe-email-bar {
-    width: auto;
-    height: 3rem;
-    border: none;
-    padding: 1rem;
-}
+    #subscribe-email-bar {
+        width: auto;
+        height: 3rem;
+        border: none;
+        padding: 1rem;
+    }
 
-.subscribe-email-button {
-    width: auto;
-    height: 3rem;
-    border: none;
-    padding: 1rem;
-    background-color: #E95A08;
-    color: white;
-}
+    .subscribe-email-button {
+        width: auto;
+        height: 3rem;
+        border: none;
+        padding: 1rem;
+        background-color: #E95A08;
+        color: white;
+    }
 
-/* footer section */
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 1rem;
-    margin: 0rem;
-}
+    /* footer section */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+        margin: 0rem;
+    }
 
-.footer-left-description {
-    margin-top: 1rem;
-}
+    .footer-left-description {
+        margin-top: 1rem;
+    }
 
-.footer-mid-links {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 1rem;
-}
+    .footer-mid-links {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+    }
 
-.footer-right {
-    display: flex;
-    gap: 2rem;
-}
+    .footer-right {
+        display: flex;
+        gap: 2rem;
+    }
 }
