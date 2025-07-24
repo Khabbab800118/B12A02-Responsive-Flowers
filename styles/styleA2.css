@@ -318,11 +318,14 @@ ul {
 
     /* common */
     .container {
-        max-width: auto;
-        margin: auto;
+        width: 100%;
+        margin: 0 auto;
     }
-    *{
+
+    img {
         max-width: 100%;
+        height: auto;
+        display: block;
     }
 
     /*         header navbar section          */
@@ -335,23 +338,10 @@ ul {
         gap: 0px;
     }
 
-    .header-navbar ul li:nth-child(1) a {
-        display: none;
-        position: absolute;
-        font-weight: 600;
-        color: #252432;
-    }
-
-    .header-navbar ul li:nth-child(2) a {
-        position: absolute;
-        display: none;
-        color: #8987A1;
-    }
-
+    .header-navbar ul li:nth-child(1) a,
+    .header-navbar ul li:nth-child(2) a,
     .header-navbar ul li:nth-child(3) a {
-        position: absolute;
         display: none;
-        color: #8987A1;
     }
 
     .header-navbar ul li:nth-child(4) a {
@@ -386,6 +376,17 @@ ul {
 
     /* .........plant section......... */
 
+    .primary-btn {
+        width: 100%;
+        background-color: #E95A08;
+        color: white;
+        font-weight: 600;
+        font-size: 0.8rem;
+        border: none;
+
+        padding: 1rem 2rem;
+    }
+
     .plants-section {
         width: 100%;
         display: flex;
@@ -407,6 +408,7 @@ ul {
     }
 
     .all-cards {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -441,9 +443,6 @@ ul {
 
     .trusted-badge {
         display: none;
-        position: absolute;
-        top: -40rem;
-        right: -27rem;
     }
 
     .plants-lover-section-right ul {
@@ -492,28 +491,34 @@ ul {
 
     }
 
-    .latest-deal-section-bloom {
-        border-radius: 1rem;
-        height: 50%;
-        background-image: url('../assets/deal-bloom.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
+    .latest-deal-section-bloom a,
+    .latest-deal-section-ana a {
+        color: white;
     }
 
+    .latest-deal-section-bloom,
     .latest-deal-section-ana {
         border-radius: 1rem;
         height: 50%;
         background-image: url('../assets/deal-ana.png');
-        background-size: 100%;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
+        margin-bottom: 1rem;
+    }
+
+    .latest-deal-section-layout-right a {
+        color: white;
     }
 
     .latest-deal-section-layout-right {
+        border-radius: 1rem;
         height: 15rem;
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
         background-image: url('../assets/deal-zabo.png');
-        background-size: 100%;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
     }
 
